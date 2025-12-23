@@ -69,7 +69,7 @@ void cau3() {
 void convert() {
 	char c;
 	printf("Nhap ki tu c: ");
-	scanf(" %c", &c);
+	scanf("%c", &c);
 	if ( c >= 'a' && c <= 'z') {
 		c -= 32;
 		printf("Ki tu hoa : %c\n", c);
@@ -112,3 +112,4 @@ int main() {
 	
 	return 0;
 }
+
